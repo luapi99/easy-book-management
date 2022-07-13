@@ -174,7 +174,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     initGenre() {
@@ -189,7 +189,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     viewClass(Class) {
@@ -217,7 +217,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
       this.viewClassDetails = true
     },
@@ -236,12 +236,12 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
       this.viewStudentDetails = true
     },
     copy(Class) {
-      console.log(Class)
+      
       this.$store.commit('ui/setNotification', {
         display: true,
         code: i18n.t('ClassPage.copyClassIDMessage'),

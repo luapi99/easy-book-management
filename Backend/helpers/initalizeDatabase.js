@@ -14,10 +14,7 @@ module.exports = {
         name: 'teacher',
       })
       await teacherRole.save().catch((err) => {
-        console.error(
-          'Helpers.initalizeDatabase.createStandardRoles - Failed to add Teacher Role: ' +
-            err.message
-        )
+        
       })
       log(
         'Helpers.initalizeDatabase.createStandardRoles - Created Teacher Role',
@@ -29,10 +26,7 @@ module.exports = {
         name: 'dean',
       })
       await deanRole.save().catch((err) => {
-        console.error(
-          'Helpers.initalizeDatabase.createStandardRoles - Failed to add Dean Role: ' +
-            err.message
-        )
+        
       })
       log(
         'Helpers.initalizeDatabase.createStandardRoles - Created Dean Role',

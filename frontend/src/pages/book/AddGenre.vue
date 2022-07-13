@@ -117,7 +117,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     editGenre() {
@@ -129,7 +129,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
   },

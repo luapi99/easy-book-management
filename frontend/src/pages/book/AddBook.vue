@@ -196,7 +196,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     editBook() {
@@ -208,7 +208,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
   },

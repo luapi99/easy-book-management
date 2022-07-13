@@ -220,7 +220,7 @@ exports.rentBook = [
   async (req, res) => {
     log('Controller.bookController.rentBook - Start', 'debug')
     const { bookID, studentID } = req.body
-    console.log(req.body)
+    
     let book = await Book.findById(bookID)
     if (book.studentID !== '') {
       log(

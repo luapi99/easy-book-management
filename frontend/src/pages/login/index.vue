@@ -88,13 +88,13 @@ export default {
         .then(async () => {
           this.$router.push('/home').catch((err) => {
             this.loading = false
-            console.log(err)
+            
           })
           window.location.reload()
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
   },

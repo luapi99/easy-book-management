@@ -156,7 +156,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     classAdded() {
@@ -180,7 +180,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     editClassDialog(Class) {

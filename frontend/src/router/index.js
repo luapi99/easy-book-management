@@ -93,7 +93,7 @@ axios.interceptors.response.use(
       })
     }
     if (status === 405) {
-      console.log('Forbidden')
+      
       router.push('/')
     }
   }

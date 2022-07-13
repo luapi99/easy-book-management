@@ -249,7 +249,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     initClasses() {
@@ -264,7 +264,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     initGenre() {
@@ -279,7 +279,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     deleteStudentDialog(student) {
@@ -299,7 +299,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     editStudentDialog(student) {
@@ -341,7 +341,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
       this.viewStudentDetails = true
     },
@@ -371,7 +371,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
   },
