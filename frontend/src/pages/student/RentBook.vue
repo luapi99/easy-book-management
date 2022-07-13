@@ -148,11 +148,11 @@ export default {
               this.books.push(book)
             }
           })
-          console.log(this.books)
+          
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     initializeGenres() {
@@ -167,7 +167,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
     rentBook(book) {
@@ -188,7 +188,7 @@ export default {
         })
         .catch((err) => {
           this.loading = false
-          console.log(err)
+          
         })
     },
   },

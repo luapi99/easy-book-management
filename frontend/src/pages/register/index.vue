@@ -344,7 +344,7 @@ export default {
           })
           .catch((err) => {
             this.loading = false
-            console.log(err)
+            
           })
       } else if (this.type === 'employee') {
         this.$store
@@ -355,7 +355,7 @@ export default {
           })
           .catch((err) => {
             this.loading = false
-            console.log(err)
+            
           })
       } else if (this.type === 'school') {
         this.$store
@@ -366,7 +366,7 @@ export default {
           })
           .catch((err) => {
             this.loading = false
-            console.log(err)
+            
           })
       }
     },

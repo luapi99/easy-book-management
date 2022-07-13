@@ -67,7 +67,7 @@ export default {
     },
     logout() {
       this.$store.dispatch('auth/logout').catch((error) => {
-        console.log(error)
+        
       })
     },
   },
